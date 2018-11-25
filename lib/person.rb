@@ -1,9 +1,7 @@
 class Person
 
-
     attr_reader :name
     attr_accessor :bank_account
-
 
     def initialize(name)
       @name = name
@@ -40,7 +38,6 @@ class Person
 
     def take_bath
         self.hygiene=(@hygiene += 4)
-      #end
       "\♪ Rub-a-dub just relaxing in the tub \♫"
     end
 
@@ -83,7 +80,5 @@ class Person
         "blah blah blah blah blah"
       end
     end
-
-
 
   end # End of Person class
